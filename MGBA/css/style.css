@@ -109,6 +109,9 @@ body{
 	box-sizing: border-box;
 	cursor:pointer;
 }
+.imagem{
+	width: 100%;
+}
 .cart{
 	height: 38px;
 	padding: 0 0 0 10px;
@@ -439,10 +442,9 @@ nav{
 	display:block;
 }
 .menu li{
-	display:inline-block;
+	display:block-inline;
 	position:relative;
 	z-index:100;
-	float: left;
 }
 .menu li:first-child{margin-left:0;}
 .menu li a{
@@ -916,7 +918,7 @@ ul.sub-menu.list-unstyled.sub-menu3 {
 }
 /*** Social Icons ***/
 .social-icons{
-	padding-top:8%;
+	padding: top 1.5;
 }
 .social-icons li {
 	width:30px;
