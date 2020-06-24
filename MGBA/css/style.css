@@ -175,7 +175,8 @@ body{
 	padding-bottom:.4em;
 }
 .register_account{
-	float:left;
+	float: right;
+	display: flexbox;
 	width:62%;
 	padding:20px;
     background:#FFF;
@@ -685,7 +686,7 @@ ul.sub-menu.list-unstyled.sub-menu3 {
 }
 .heading{
 	float:left;
-	margin-right:10%;
+	margin-right:15%;
 }
 .heading h3{
 	font-family: 'Monda', sans-serif;
@@ -2940,3 +2941,112 @@ ul.sub-menu.list-unstyled.sub-menu3 {
 	}
 }
 /*Cart*/
+.produto-carrinho{
+	border-style:outset;
+	border-width: 5px ;
+	padding: 2px;
+	display: flex;
+}
+.imagem-carrinho{
+	width: auto;
+	float: left;
+	border-style: outset;
+	border-width: 5px;
+}
+.descricao-produto{
+	width: 65%	;
+	float: left;
+	padding: 1.5%;
+	border-style: outset;
+	border-width: 5px;
+
+}
+.descricao-produto h2{
+	font-size: 1.2em ;
+	color: #DD0F0E;
+}
+.seletor-quantidade{
+	width: 15%;
+	color: #DD0F00;
+	float: right;
+	justify-content: right;
+	border-style: outset;
+	border-width: 5px;
+	padding: 2%;
+}
+.selecao{
+	width: 100%;
+}
+.valor{
+	margin-top:20%;
+	border-color: #000;
+	padding: 5%;
+}
+.seletor-quantidade h3{
+	font-size: 1.5em;
+	color: #333;
+}
+.seletor-quantidade p{
+	font-size: 2.2em;
+	color: red;
+}
+.tabela-custos{
+	height: 150px;
+	float: right;
+	border-style: outset;
+	border-width: 5px;
+	padding: 2%;
+	padding-bottom: 5%;
+}
+.tabela{
+	border-collapse: collapse;
+}
+.tabela table, th, td{
+	border: 1px lightsteelblue;
+	text-align: left;
+	font-size: 1.5em;
+	padding: 0.5%;
+	height: 50px;
+	width: 50%;
+
+}
+.tabela  th,td{
+text-align: right;
+border-bottom: solid 1px black;
+vertical-align: bottom;
+}
+.tabela  th{
+text-align: left;
+}
+.cep{
+	width: auto;
+	float: right;
+	padding: 2%;
+	border-style: outset;
+	border-width: 5px;
+}
+.finalizar-compra{
+	width: 100px;
+	float: right;
+	border-style: outset;
+	border-width: 5px;
+	margin-right: 1.5%;
+	background-color:#a5a5a5 ;
+	padding: 1%;
+}
+.finalizar-compra a{
+color: #333;
+font-size: 1.2em;
+}
+.borda{
+	border: 5px outset;
+	padding: 2%;
+}
+.pedido{
+	float: left	;
+	padding: 2%;
+	background-color: #96e37d;
+	width: 95%;
+	border: outset 5px;
+	font-size: 1.5em;
+}
